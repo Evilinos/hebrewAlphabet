@@ -92,7 +92,7 @@ export const LETTERS: LetterType[] = [
   {
     name: 'Йод/Йуд',
     value: 'י',
-    pronunciation: 'й',
+    pronunciation: 'Й',
     color: colors.orange,
     sound: sounds.yod,
   },

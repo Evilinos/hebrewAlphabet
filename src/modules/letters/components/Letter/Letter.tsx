@@ -8,12 +8,13 @@ export const Letter: FC<LetterProp & {fontSerif?: boolean}> = ({letter: {value, 
   return (
     <Text
       style={{
-        fontSize: height / 1.75,
-        lineHeight: height / 1.6,
+        fontSize: height / 2,
+        lineHeight: height / 1.65,
         height: height / 1.6,
         color: color,
         fontFamily: fontSerif ? 'serif' : 'sans-serif',
         textAlign: 'center',
+        textAlignVertical: 'center',
       }}
     >
       {value}
